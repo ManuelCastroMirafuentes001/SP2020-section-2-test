@@ -20,7 +20,7 @@ S = time.time_ns - time.process_time_ns()
 #------------------------------------------------------------------------------
 #S = 0 #This will be removed from the final program.
 
-for i in range(10):
+for i in range(100):
     S = (M * S + A) % N #RNG Formula
     #print(S)\
     r = S / N #Numebrs in [0,1)
